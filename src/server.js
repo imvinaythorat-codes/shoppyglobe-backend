@@ -1,7 +1,9 @@
 require("dotenv").config();
 const express = require("express");
 const connectDB = require("./config/db");
+
 const productRoutes = require("./routes/productRoutes");
+const cartRoutes = require("./routes/cartRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -17,9 +19,11 @@ app.get("/", (req, res) => {
   res.send("ShoppyGlobe Backend Running");
 });
 
-// product routes
+// routes
 app.use("/products", productRoutes);
+app.use("/cart", cartRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
