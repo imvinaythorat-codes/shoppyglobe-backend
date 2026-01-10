@@ -111,6 +111,11 @@ JWT_SECRET=supersecretkey
 
 ---
 
+## ▶️ Github Link:
+https://github.com/imvinaythorat-codes/SHOPPYGLOBE-BACKEND.git
+
+---
+
 ## ▶️ How to Run the Project
 
 1. Install dependencies:
@@ -124,3 +129,5 @@ node src/server.js
 http://localhost:5000
 
 > APIs were tested using Postman (equivalent to Thunder Client).
+
+
