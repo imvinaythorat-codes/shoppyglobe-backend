@@ -122,3 +122,5 @@ node src/server.js
 
 3. Server will run on:
 http://localhost:5000
+
+> APIs were tested using Postman (equivalent to Thunder Client).
